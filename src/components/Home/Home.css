@@ -1,0 +1,87 @@
+.main{
+    margin: 0.625rem; 
+    /* 0.625rem = 10px which root size is 16px */
+    background-image: url(./HomeImages/Imgbackground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(100% - 2* 0.625rem);
+    height: calc(100vh - 90px);
+    border: 4px solid rgb(168, 0, 168);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.main > h1{
+    font-size: 2.75rem;
+    font-weight: bolder;
+}
+.description{
+    font-weight: 250;
+    font-size: 1.5rem;
+}
+
+
+.main__items{
+    margin: 1.5rem 0.625rem;
+    /* margin = 24px 10px in pixels */
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 250px;
+}
+.main__nav__links{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-decoration: none;
+    border: 4px solid rgb(168, 0, 168);
+    text-shadow: none;
+}
+.main__nav__links:first-child{
+    background-image: url(./HomeImages/Menu-img.jpg);
+}
+.main__nav__links:nth-child(2){
+    background-image: url(./HomeImages/speical-img.jpg);
+}
+.main__nav__links:last-child{
+    background-image: url(./HomeImages/map-to-nowhere.png);
+}
+.main__nav__links > span{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    padding: 10px 0;
+    opacity: 0.75;
+}
+/* hover effect */
+.main__items:hover .main__nav__links:not(:hover){
+    filter: blur(3px);
+}
+
+/* media queries */
+@media (max-width: 1240px) and (min-width:768px){
+    .main__items{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 250px);
+    }
+    .main__nav__links:last-child{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+@media (max-width:767.99px) {
+    .main{
+        height: calc(100vh - 145px);
+    }
+    .main__items{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3,250px)
+    }
+}
