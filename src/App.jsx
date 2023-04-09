@@ -17,9 +17,9 @@ function App() {
       <Router>
           <Navbar />
           <Routes>
-            <Route path="/" Component={Home}></Route>
-            <Route path="/menu" Component={Menu}></Route>
-            <Route path="/special" Component={Special}></Route>
+            <Route path="/slamminsweets/" Component={Home}></Route>
+            <Route path="/slamminsweets/menu" Component={Menu}></Route>
+            <Route path="/slamminsweets/special" Component={Special}></Route>
           </Routes>
           <Contact />
       </Router>
