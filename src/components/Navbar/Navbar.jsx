@@ -40,7 +40,7 @@ export const Navbar = () => {
             <div className="nav__items">
                 <NavLink
                     onClick={handleCloseCart}
-                    to='/slamminsweets/'
+                    to='/slamminsweets'
                     // active is the className when the following tab is active.
                     className={(navData) => (navData.isActive ? 'active' : 'nav__item')}>
                     home
