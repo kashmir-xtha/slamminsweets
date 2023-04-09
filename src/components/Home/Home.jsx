@@ -17,12 +17,12 @@ export const Home = () => {
 
             <div className="main__items">
                 <NavLink 
-                to="/menu"
+                to="/slamminsweets/menu"
                 className='main__nav__links'>
                     <span>MENU</span>
                 </NavLink>
                 <NavLink 
-                to='/special'
+                to='/slamminsweets/special'
                 className='main__nav__links'>
                     <span>SPECIAL</span>
                 </NavLink>
