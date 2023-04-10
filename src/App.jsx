@@ -15,13 +15,14 @@ function App() {
   const [cart, setCart] = useState([]);
   return (
     <myCart.Provider value={{cart, setCart}}>
-      <Router>
+      <Router basename="/slamminsweets">
+        {/* basename acts as the domain for the upcoming routes and should be similar to gh-homepage name  */}
           <Navbar />
           <Routes>
-            <Route path="/slamminsweets/" Component={Home}></Route>
-            <Route path="/slamminsweets/menu" Component={Menu}></Route>
-            <Route path="/slamminsweets/special" Component={Special}></Route>
-            <Route path="/slamminsweets/*" Component={RedirectHomePage} />
+            <Route path="/" Component={Home}></Route>
+            <Route path="/menu" Component={Menu}></Route>
+            <Route path="/special" Component={Special}></Route>
+            <Route path="*" Component={RedirectHomePage} />
           </Routes>
           <Contact />
       </Router>
