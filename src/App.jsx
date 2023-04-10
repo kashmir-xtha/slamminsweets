@@ -4,6 +4,7 @@ import { Home } from "./components/Home/Home";
 import { Menu } from "./components/Menu/Menu";
 import { Special } from "./components/Special/Special";
 import { Contact } from "./components/Contact/Contact"; 
+import { RedirectHomePage } from "./components/RedirectHomepage/RedirectHomepage";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import {useState, createContext} from 'react';
 
@@ -20,7 +21,7 @@ function App() {
             <Route path="/slamminsweets/" Component={Home}></Route>
             <Route path="/slamminsweets/menu" Component={Menu}></Route>
             <Route path="/slamminsweets/special" Component={Special}></Route>
-            <Route path="*" Component={Home} />
+            <Route path="/slamminsweets/*" Component={RedirectHomePage} />
           </Routes>
           <Contact />
       </Router>

@@ -41,6 +41,7 @@ export const Navbar = () => {
                 <NavLink
                     onClick={handleCloseCart}
                     to='/slamminsweets'
+                    end // to remove the active class when switched to the child routes 
                     // active is the className when the following tab is active.
                     className={(navData) => (navData.isActive ? 'active' : 'nav__item')}>
                     home
