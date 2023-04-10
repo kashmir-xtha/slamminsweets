@@ -20,6 +20,7 @@ function App() {
             <Route path="/slamminsweets/" Component={Home}></Route>
             <Route path="/slamminsweets/menu" Component={Menu}></Route>
             <Route path="/slamminsweets/special" Component={Special}></Route>
+            <Route path="*" Component={Home} />
           </Routes>
           <Contact />
       </Router>

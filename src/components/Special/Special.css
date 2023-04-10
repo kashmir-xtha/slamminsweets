@@ -10,8 +10,7 @@
 .special__items{
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
-    /* to make responsive without using media queries */
+    grid-template-columns: repeat(3, auto);
 }
 .special__item{
     margin-top: 20px;
@@ -51,4 +50,15 @@
     opacity: .85;
     padding: 10px;
     text-transform: uppercase;
+}
+/* media queries */
+@media (max-width: 1240px) and (min-width:768px){
+    .special__items{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+@media (max-width:767.99px) {
+    .special__items{
+        grid-template-columns: auto;
+    }
 }
