@@ -13,6 +13,7 @@
     grid-template-columns: repeat(3, auto);
 }
 .special__item{
+    transition: all .25s ease-in-out;
     margin-top: 20px;
     height: 250px;
     color: white;

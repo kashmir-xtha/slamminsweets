@@ -19,6 +19,9 @@ export const Navbar = () => {
     };
     const handleClearCart = () => {
         setCart([]);
+        setTimeout(() => {
+            setIsCartOpen(false);
+        }, 3000);
     };
     let total = 0;
     cart.forEach((element) => {

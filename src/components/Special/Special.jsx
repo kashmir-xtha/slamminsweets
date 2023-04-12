@@ -41,6 +41,7 @@ export const Special = () => {
     const handleClick = (event) => {
         try{
             event.target.style.borderColor = 'lime';
+            setTimeout(() => { event.target.style.borderColor = "#a800a8"}, 750);
             const addedItemName = event.target.lastChild.children[0].textContent;
             const addedItemPrice = event.target.lastChild.children[1].textContent;
             const newItem = [addedItemName, addedItemPrice]

@@ -3,6 +3,7 @@
     --height: 70px;
     --image : 68px;
     --bgcolor : #4f3001;
+    --overlayBg : rgb(255, 218, 185);
 }
 
 .container {
@@ -98,7 +99,7 @@ img:hover {
     width: 98%;
     height: 87vh;
     border-radius: 10px;
-    background-color: var(--color);
+    background-color: var(--overlayBg);
     font-weight: 800;
     color:var(--bgcolor);
     padding: 10px;
@@ -112,7 +113,7 @@ img:hover {
     font-size: 1.75rem;
     font-weight: 700;
     padding: 5px 10px;
-    background: var(--color);
+    background: var(--overlayBg);
     color: var(--bgcolor);
     transition: all .25s ease;
 }.closeButton > button:hover{
@@ -159,7 +160,7 @@ img:hover {
     transition: none;
 }.clear_cart > button:hover{
     cursor: pointer;
-    color: var(--color);
+    color: var(--overlayBg);
     background: rgb(255, 0, 0);
 }
 @media (max-width: 768px){

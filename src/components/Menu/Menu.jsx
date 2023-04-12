@@ -42,13 +42,14 @@ export const Menu = () => {
     const handleClick = (event) => {
         try {
             event.target.style.borderColor = 'lime';
+            setTimeout(() => { event.target.style.borderColor = "#a800a8"}, 750);
             const addedItemName = event.target.lastChild.children[0].textContent;
             const addedItemPrice = event.target.lastChild.children[1].textContent;
             const newItem = [addedItemName, addedItemPrice];
             setCart([...cart, newItem]);
         }
         catch {
-            // for those chrome that doesnot use "pointer-events" styling in css
+            // for those webbrowswer that doesnot use "pointer-events" styling in css
             alert("Try Clicking on the image while ordering");
         }
     };
