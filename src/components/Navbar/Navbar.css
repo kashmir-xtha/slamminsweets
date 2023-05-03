@@ -89,15 +89,15 @@ img:hover {
     top: 4.40rem;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 4.40rem);
     backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cartOverlay{
-    position: absolute;
-    top: .75rem;
-    left: 1%;
     width: 98%;
-    height: 87vh;
+    height: 96%;
     border-radius: 10px;
     background-color: var(--overlayBg);
     font-weight: 800;
@@ -177,8 +177,7 @@ img:hover {
         justify-content: space-evenly;
         background-color: var(--bgcolor);
     }
-    .cartOverlay{
-        top: 0.65rem;
-        height: 80vh;
+    .overlayContainer{
+        height:calc(100vh - 4.40rem - 65px);
     }
 }
