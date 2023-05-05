@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/slamminsweets/static/css/main.d1d88c30.css",
+    "main.js": "/slamminsweets/static/js/main.87190e2f.js",
+    "static/media/Sachertort.jpeg": "/slamminsweets/static/media/Sachertort.46fa0a46fa558b0c23c3.jpeg",
+    "static/media/FrrozenHauteSandre.png": "/slamminsweets/static/media/FrrozenHauteSandre.8e072288e34ff47b035c.png",
+    "static/media/map-to-nowhere.png": "/slamminsweets/static/media/map-to-nowhere.b180355665e6d6f8122c.png",
+    "static/media/logo.png": "/slamminsweets/static/media/logo.9b18b84c940fbebcd0f7.png",
+    "static/media/cookies.jpg": "/slamminsweets/static/media/cookies.739a18677022029bfd60.jpg",
+    "static/media/Imgbackground.png": "/slamminsweets/static/media/Imgbackground.74d777f68195e68aae4a.png",
+    "static/media/Brownies.jpg": "/slamminsweets/static/media/Brownies.c5a0b71f4e3d6ec7668c.jpg",
+    "static/media/cupcakes.jpg": "/slamminsweets/static/media/cupcakes.c132b5bdf5a5c08b3901.jpg",
+    "static/media/SeesCandies.jpg": "/slamminsweets/static/media/SeesCandies.f829397411e78975bc16.jpg",
+    "static/media/VosgesChocolate.jpg": "/slamminsweets/static/media/VosgesChocolate.2cc1b03baace91169582.jpg",
+    "static/media/pieslices.jpg": "/slamminsweets/static/media/pieslices.60d282c281dc00da74da.jpg",
+    "static/media/Menu-img.jpg": "/slamminsweets/static/media/Menu-img.8c6b59951a891df1eb19.jpg",
+    "static/media/speical-img.jpg": "/slamminsweets/static/media/speical-img.749a9392ea4c848edd7d.jpg",
+    "static/media/IcePuffles.jpg": "/slamminsweets/static/media/IcePuffles.41a0a65d8711d9ef2daf.jpg",
+    "static/media/GoldenCupcake.jpg": "/slamminsweets/static/media/GoldenCupcake.b75c86574406911e98e9.jpg",
+    "static/media/pastry.jpg": "/slamminsweets/static/media/pastry.e89f0708f0726c281e73.jpg",
+    "static/media/icecream.jpg": "/slamminsweets/static/media/icecream.5bda4841a34ed3287cb4.jpg",
+    "index.html": "/slamminsweets/index.html",
+    "main.d1d88c30.css.map": "/slamminsweets/static/css/main.d1d88c30.css.map",
+    "main.87190e2f.js.map": "/slamminsweets/static/js/main.87190e2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1d88c30.css",
+    "static/js/main.87190e2f.js"
+  ]
+}
