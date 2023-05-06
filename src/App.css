@@ -20,4 +20,7 @@ body{
     html{
         font-size: 13px;
     }
+    body{
+        background-color: #fc80eb;
+    }
 }

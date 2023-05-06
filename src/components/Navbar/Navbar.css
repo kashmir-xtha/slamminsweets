@@ -20,6 +20,7 @@
 .brand {
     display: flex;
     width: 100%;
+    overflow: hidden;
     /* for making spacebetween brand and nav__items */
 }
 
