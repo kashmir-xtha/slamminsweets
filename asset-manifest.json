@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/slamminsweets/static/css/main.d1d88c30.css",
+    "main.css": "/slamminsweets/static/css/main.b80d9dcf.css",
     "main.js": "/slamminsweets/static/js/main.87190e2f.js",
     "static/media/Sachertort.jpeg": "/slamminsweets/static/media/Sachertort.46fa0a46fa558b0c23c3.jpeg",
     "static/media/FrrozenHauteSandre.png": "/slamminsweets/static/media/FrrozenHauteSandre.8e072288e34ff47b035c.png",
@@ -20,11 +20,11 @@
     "static/media/pastry.jpg": "/slamminsweets/static/media/pastry.e89f0708f0726c281e73.jpg",
     "static/media/icecream.jpg": "/slamminsweets/static/media/icecream.5bda4841a34ed3287cb4.jpg",
     "index.html": "/slamminsweets/index.html",
-    "main.d1d88c30.css.map": "/slamminsweets/static/css/main.d1d88c30.css.map",
+    "main.b80d9dcf.css.map": "/slamminsweets/static/css/main.b80d9dcf.css.map",
     "main.87190e2f.js.map": "/slamminsweets/static/js/main.87190e2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1d88c30.css",
+    "static/css/main.b80d9dcf.css",
     "static/js/main.87190e2f.js"
   ]
 }
