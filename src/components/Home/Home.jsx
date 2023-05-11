@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import "./Home.css";
 import { NavLink } from 'react-router-dom';
 
 export const Home = () => {
+    useEffect(() => { //to scroll to the top of the page when this component is mounted.
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className="main">
